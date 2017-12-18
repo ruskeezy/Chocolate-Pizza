@@ -38,6 +38,7 @@ h1 {
 
 .icon {
   float: right;
+
 }
 
 .icon-one {
@@ -69,16 +70,16 @@ ul {
 }
 
 .form-font {
-  font-family: 'Indie Flower', cursive;
-  font-size: 20px;
+  font-family: 'Indie Flower'
+  font-size: 25px;
 }
 
 .form {
   background-image: url("list-bg.png");
-<<<<<<< HEAD
-  margin-top: 20px;
-=======
->>>>>>> 2b5781d926c79c168826d189207d296f1b0f74a7
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px 30px;
+  font-size: 20px;
 }
 
 #form-one {
@@ -87,7 +88,7 @@ ul {
   padding-right: 80px;
 }
 
-.strikethrough:checked {
+.strikethrough:checked + span {
   text-decoration: line-through;
 }
 
@@ -98,12 +99,9 @@ h2 {
 
 button {
   background-color: solid red;
-  color: solid white;
+  color: solid orange;
   float: right;
-<<<<<<< HEAD
-  padding: 30px;
-=======
->>>>>>> 2b5781d926c79c168826d189207d296f1b0f74a7
+  padding: 20px;
 }
 
 .border-line {
@@ -118,10 +116,7 @@ button {
 
 .van-bio {
   float: right;
-<<<<<<< HEAD
   margin-top: 30px;
-=======
->>>>>>> 2b5781d926c79c168826d189207d296f1b0f74a7
 }
 
 footer {
