@@ -38,6 +38,7 @@ h1 {
 
 .icon {
   float: right;
+
 }
 
 .icon-one {
@@ -69,13 +70,20 @@ ul {
 }
 
 .form-font {
-  font-family: 'Indie Flower', cursive;
-  font-size: 20px;
+  font-family: 'Indie Flower'
+  font-size: 25px;
 }
 
 .form {
   background-image: url("list-bg.png");
+<<<<<<< HEAD
   margin-top: 20px;
+=======
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px 30px;
+  font-size: 20px;
+>>>>>>> 22a837184d4f2c352e6c984a5f3c31dd1a3e58b4
 }
 
 #form-one {
@@ -84,7 +92,7 @@ ul {
   padding-right: 80px;
 }
 
-.strikethrough:checked {
+.strikethrough:checked + span {
   text-decoration: line-through;
 }
 
@@ -95,9 +103,13 @@ h2 {
 
 button {
   background-color: solid red;
-  color: solid white;
+  color: solid orange;
   float: right;
+<<<<<<< HEAD
   padding: 30px;
+=======
+  padding: 20px;
+>>>>>>> 22a837184d4f2c352e6c984a5f3c31dd1a3e58b4
 }
 
 .border-line {
